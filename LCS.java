@@ -15,10 +15,10 @@ public class LCS
    System.out.println("Enter the number of characters in y :");
    n=Integer.parseInt(br.readLine());
    int y[]=new int[n];
-   System.out.println("Enter the characters in x");
+   System.out.println("Enter the characters in x");//Enter the characters one by one
    for(int i=0;i<n;i++)
     x[i]=Integer.parseInt(br.readLine());
-   System.out.println("Enter the characters in x");
+   System.out.println("Enter the characters in y");//Enter the characters one by one
    for(int i=0;i<n;i++)
      x[i]=Integer.parseInt(br.readLine());
    printlcs(lcs(x,y),x,m,n);
